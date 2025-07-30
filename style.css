@@ -268,7 +268,7 @@ main p {
     padding: 0;
     margin: 0;
     color: var(--color-secundario);
-    background-color: var(--color-terciario);
+    background-color: var(--color-principal);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;    
@@ -392,10 +392,13 @@ footer img {
         width: 70%;
     }
     .segundo {
-        background-color: var(--color-terciario);
+        background-color: var(--color-principal);
         background-image: url(./figuras/Group.png);
         width: 100%;
         height: 60vh;
+    }
+    .segundo img {
+        width: 60px;
     }
     .fecha img{
         margin:  0 0 10px 0;
